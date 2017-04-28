@@ -1,0 +1,7 @@
+echo 'Hello';
+thumuchienhanh=`pwd`
+echo "Thu muc hien hanh:" $thumuchienhanh
+hienthitatca=`ls -A`
+echo "Hien thi tat ca tap tin: "$hienthitatca
+Ngaygiohientai=$(date +"%H:%M:%S %d-%m-%Y")
+echo "Ngay gio hien tai:" $Ngaygiohientai
